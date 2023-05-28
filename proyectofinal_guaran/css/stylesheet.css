@@ -1,0 +1,16 @@
+.seccion1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.titulo{
+    margin: 20px;    
+}
+
+.imagenprincipal {
+    max-width: 500px;
+    max-height: 500px;
+}
