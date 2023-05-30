@@ -10,9 +10,9 @@
     margin: 20px;    
 }
 
-.subtitulo{
+.subtitulo1{
     text-align: center;
-    padding: 2rem;
+    margin: 5%;
     color: rgb(243, 234, 234);
 }
 
@@ -21,14 +21,20 @@
     max-height: 500px;
 }
 
-.obras{
-    background-color:rgb(100, 99, 99);
+#obras{
+    background-color:rgb(20, 20, 20);
     height: 100%;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .obras div{
     /*border: solid red 2px;*/
     align-items: center;
     justify-content: center;
+}
+
+.subtitulo2{
+    text-align: center;
+    margin: 2em;
+    color: rgb(20, 20, 20);
 }
