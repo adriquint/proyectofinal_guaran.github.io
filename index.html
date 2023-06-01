@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+        <nav class="navbar bg-body-tertiary nav-color"> <!--data-bs-theme="dark"-->
             <div class="container">
                 <a class="navbar-brand" href="#home"><i class="bi bi-house"></i></a>
                 <a class="navbar-brand" href="#obras"><i class="bi bi-ticket-perforated"></i></a>
@@ -22,8 +22,11 @@
 
     <main>
         <section id="home" class="seccion1 bg-secondary-subtle">
-            <div class="imagenprincipal">
-                <img src="images/obra_yesterdei.jpg" class="img-fluid" alt="Yesterdei. Cosas que se pierden en la siesta">
+            <div class="imagenprincipal image-container">
+              <img src="images/meyerhold_2.jpg" class="img-fluid" alt="Meyerhold">
+              <!--<img src="images/sueño_de_barrio_1.jpg" class="img-fluid" alt="Yesterdei. Cosas que se pierden en la siesta">
+              <img src="images/contrainteligencia_1.jpg" class="img-fluid" alt="Yesterdei. Cosas que se pierden en la siesta">
+              <img src="images/obra_yesterdei.jpg" class="img-fluid" alt="Yesterdei. Cosas que se pierden en la siesta"> -->
             </div>
             <div class="titulo">
                 <h3>Grupo de</h3>
@@ -37,17 +40,17 @@
                 <div class="col">
                   <div class="card text-center">
                     <img src="images/polaquita_2.jpg" class="card-img-top" alt="La Polaquita">
-                    <div class="card-body">
+                    <div class="card-body boton-color">
                       <h5 class="card-title">"La Polaquita, guaynita rubia tataré"</h5>
                       <p class="card-text">Todos los Viernes - 21:30hs</p>
-                      <a href="#" class="btn btn-primary">Comprar entrada</a>                     
+                      <a href="#" class="btn btn-primary ">Comprar entrada</a>                     
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card text-center">
                     <img src="images/contrainteligencia_2.jpg" class="card-img-top" alt="Contrainteligencia">
-                    <div class="card-body">
+                    <div class="card-body boton-color">
                       <h5 class="card-title">"Contrainteligencia""</h5>
                       <p class="card-text">Todos los Sábados - 21:30hs</p>
                       <a href="#" class="btn btn-primary">Comprar entrada</a>
@@ -57,7 +60,7 @@
                 <div class="col">
                   <div class="card text-center">
                     <img src="images/losperros_2.jpg" class="card-img-top" alt="Los Perros">
-                    <div class="card-body">
+                    <div class="card-body boton-color">
                       <h5 class="card-title">"Los Perros"</h5>
                       <p class="card-text">Todos los Domigos- 20hs</p>
                       <a href="#" class="btn btn-primary">Comprar entrada</a>
@@ -69,7 +72,7 @@
 
         <article id="cursos">
             <h2 class="subtitulo2">Cursos y Talleres 2023</h2>
-            <div class="row row-cols-1 mb-5">
+            <div class="row row-cols-1 mb-4">
             <div class="card mb-3 mx-auto" style="max-width: 440px;">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -80,6 +83,7 @@
                       <h5 class="card-title">Actuación para Adultos</h5>
                       <p class="card-text">Destinado a principiantes mayores de 18 años.</p>
                       <p class="card-text">Horario: Miércoles de 21 a 23hs</p>
+                      <p class="card-text">Lugar: Espacio Mariño</p>
                       <a href="#" class="card-link">Más info</a>
                     </div>
                   </div>
@@ -95,11 +99,12 @@
                       <h5 class="card-title">Teatro Infantil</h5>
                       <p class="card-text">Destinado a niños y niñas de 7 a 11 años.</p>
                       <p class="card-text">Horario: Sábados de 17 a 18:30hs</p>
+                      <p class="card-text">Lugar: Espacio Mariño</p>
                       <a href="#" class="card-link">Más info</a>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>              
             </div>
         </article>
     </main>
