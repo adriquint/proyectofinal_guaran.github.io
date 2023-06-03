@@ -25,7 +25,7 @@
 
 .subtitulo1{
     text-align: center;
-    margin: 5%;
+    margin: 2%;
     color: rgb(243, 234, 234);
 }
 
@@ -34,11 +34,10 @@
     max-height: 500px;
 }
 
-#obras{
-    
-    background-color:rgb(20, 20, 20);
-    height: 100%;
-    padding: 2rem;
+#obras{    
+  background-color:rgb(20, 20, 20);
+  height: 100%;
+  padding: 4%;
 }
 
 .obras div{
@@ -55,9 +54,10 @@
 
 .subtitulo2{
     text-align: center;
-    margin: 2em;
+    margin: 7%;
     color: rgb(20, 20, 20);
 }
+
 
 /*.image-container {position: relative;}
 .image-container img{
